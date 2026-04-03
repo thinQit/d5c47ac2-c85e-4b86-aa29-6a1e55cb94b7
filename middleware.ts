@@ -1,5 +1,1 @@
-export { auth as middleware } from "@/lib/auth";
-
-export const config = {
-  matcher: ["/account/:path*", "/api/reviews"],
-};
+export { default } from "next-auth/middleware";
